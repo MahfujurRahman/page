@@ -2,39 +2,14 @@
 body{
 	font-family: 'Poppins', sans-serif;
 }
-.head{
-	background-color: #222;
+.abc{
+	margin-bottom: 0px;
 }
-.logo{
-	width: 30%;
-    height: 50px;
-    float: left;
-    margin: auto;
-    color: white;
+.navbar-right{
+	margin: auto;
 }
-.logo a{
-	color: white;
-}
-.navbar-nav{
-	list-style:none;
-}
-.m-menu{
-	padding: 20px;
-	padding-bottom: 17px;
-}
-.navbar-nav a{
-	text-decoration: none;
-	color: white;
-}
-.nav-link:hover{
-	border-bottom: 1px solid black;
-}
-.hero{
-	width: 100%;
-	height: 695px;
-	background-image: url(../img/header-background.jpg);
-	background-size: cover;
-	margin-top: -20px;
+.navbar-right a:hover{
+	border-bottom: 2px solid black;
 }
 .hero:before{
 	content: "";
@@ -87,14 +62,45 @@ body{
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
-	min-height:640px; 
+	min-height:640px;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+#box-wrapper:before{
+	content: "";
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    height: 640px;
+    width: 100%;
 }
 #box-wrapper h1{
-	text-align: center;
+	
 	color: white;
 	font-weight: bold;
+	 position: absolute;
+	 z-index: 492;
+	 top: 220px;
 }
 #box-wrapper p{
 	text-align: justify;
 	font-size: 15px;
+	position: absolute;
+     z-index: 492;
+     top: 400px;
+     color: white;
+}
+#box-wrapper .buy{
+	width: 80px;
+    height: 30px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+     position: absolute;
+     z-index: 492;
+     top: 500px;
+     padding-top: 6px;
+}
+#box-wrapper .buy  a{
+	color: #999;
+	text-decoration: none;
 }
