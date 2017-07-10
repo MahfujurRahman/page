@@ -93,3 +93,89 @@ body{
 	text-align: -webkit-center;
 	padding-bottom: 12px;
 }
+.overvies{
+	background-color: #f7f7f7;
+}
+.overvies h3{
+	text-align: center;
+	padding-top: 50px;
+}
+.overvies p{
+	text-align: center;
+}
+.border{
+	margin: 48px;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: #cbcbcb;
+	border-radius: 5px;
+}
+.v-icon{
+	background-color: white;
+    padding: 15px;
+    position: absolute;
+    left: 120px;
+    top: -22px;
+    box-shadow: 0px 7px 15px 0px rgba(0, 0, 0, 0.14);
+    border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: #eeeeee;
+	color: #a8a8a8;
+}
+.chapter{
+	padding: 18px;
+}
+.overvies h5{
+	text-align: center;
+	padding: 24px 0px;
+	color: #a4a4a4;
+}
+.overvies p{
+	text-align: -webkit-center;
+	padding-bottom: 12px;
+	color: #acacac;
+}
+.border:hover, .border:hover .v-icon{
+	border-color: #00b181;
+}
+.video-wrapper{
+	position: relative;
+}
+.video-wrapper iframe{
+	position: absolute;
+}
+.author h3{
+	text-align: center;
+}
+.author p{
+	text-align: center;
+	padding-bottom: 50px;
+}
+.text{
+	margin: 0px 0px 0px 50px;
+    padding: 0px 46px 0px 70px;
+}
+.text h3{
+	line-height: 15px;
+	padding-bottom: 10px;
+}
+.text h5{
+	line-height: 18px;
+	text-align: center;
+}
+.text img{
+	padding-top: 30px;
+}
+.a-icon{
+	padding: 10px;
+    margin: 15px 5px 5px 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.a-icon:hover{
+	background-color: #00cf97;
+	color: white;
+}
+.pic{
+	margin-left: 40px;
+}
