@@ -179,3 +179,19 @@ body{
 .pic{
 	margin-left: 40px;
 }
+.laiberi{
+	background-image: url(../img/libary.png);
+}
+.bg{
+	margin: 12px;
+}
+.l-icon{
+	float: left;
+    font-size: 26px;
+    color: white;
+}
+.bg p{
+	float: left;
+    font-size: 47px;
+    color: white;
+}
