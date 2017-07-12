@@ -180,18 +180,29 @@ body{
 	margin-left: 40px;
 }
 .laiberi{
-	background-image: url(../img/libary.png);
+	background-image: url(../img/library.png);
+	min-width: 100%;
+    min-height: 200px;
 }
 .bg{
-	margin: 12px;
+	margin: 30px 48px 0px 48px;
+}
+.bg h3{
+	color: white;
+	text-align: center;
+	line-height: 70px;
 }
 .l-icon{
 	float: left;
-    font-size: 26px;
+    font-size: 20px;
     color: white;
+    padding-left: 35px;
+    line-height: 1px;
 }
 .bg p{
 	float: left;
-    font-size: 47px;
+    font-size: 17px;
     color: white;
+    padding-left: 10px;
+    line-height: 0px;
 }
