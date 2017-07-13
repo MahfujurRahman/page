@@ -4,6 +4,9 @@ body{
 }
 .abc{
 	margin-bottom: 0px;
+	background-color: rgba(0, 0, 0, 0.369);
+    position: absolute;
+    width: 100%;
 }
 .navbar-right{
 	margin: auto;
@@ -68,7 +71,7 @@ body{
 }
 .box{
 	transition: all 0.05s;
-	margin: 48px;
+	margin: 30px 0px 30px 0px;
 	border-style: solid;
 	border-width: 0px 1px 1px 1px;
 	border-color: #eeeeee;
@@ -82,7 +85,7 @@ body{
 }
 .icon{
 	font-size: 40px;
-    padding: 20px 0px 12px 90px;
+    padding: 20px 0px 12px 135px;
     color: #b7b2b2;
 }
 .feature-heding h4{
@@ -104,7 +107,8 @@ body{
 	text-align: center;
 }
 .border{
-	margin: 48px;
+	margin-bottom: 24px;
+	margin-top: 24px;
 	border-style: solid;
 	border-width: 1px 1px 1px 1px;
 	border-color: #cbcbcb;
@@ -114,13 +118,14 @@ body{
 	background-color: white;
     padding: 15px;
     position: absolute;
-    left: 120px;
-    top: -22px;
+    left: 50%;
+    top: 0px;
     box-shadow: 0px 7px 15px 0px rgba(0, 0, 0, 0.14);
     border-style: solid;
 	border-width: 1px 1px 1px 1px;
 	border-color: #eeeeee;
 	color: #a8a8a8;
+	transform: translateX(-50%);
 }
 .chapter{
 	padding: 18px;
@@ -181,11 +186,11 @@ body{
 }
 .laiberi{
 	background-image: url(../img/library.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 	min-width: 100%;
     min-height: 200px;
-}
-.bg{
-	margin: 30px 48px 0px 48px;
 }
 .bg h3{
 	color: white;
@@ -196,7 +201,7 @@ body{
 	float: left;
     font-size: 20px;
     color: white;
-    padding-left: 35px;
+    padding-left: 95px;
     line-height: 1px;
 }
 .bg p{
@@ -205,4 +210,52 @@ body{
     color: white;
     padding-left: 10px;
     line-height: 0px;
+}
+.news{
+	width: 100%;
+    height: 580px;
+}
+.news h3{
+	text-align: center;
+}
+.n-t{
+	text-align: center;
+	padding-bottom: 50px;
+}
+.text-ab{
+	position: absolute;
+    top: 210px;
+    left: 9%;
+    width: 320px;
+    height: 170px;
+    padding: 15px;
+    background-color: white;
+    border-style: solid;
+    border-width: 0px 1px 1px 0px;
+    border-color: #cbcbcb;
+    transition: all 0.05s;
+}
+.n-icon{
+	float: left;
+	padding-right: 5px;
+}
+.i-t{
+	display: inline-block;
+}
+.i-p{
+	float: left;
+}
+.i-p p{
+	float: left;
+}
+.i-t h6{
+	float: right;
+    margin: 1px 0px 1px 225px;
+    margin: 0;
+    padding-left: 197px;
+    margin-top: -27px;
+}
+.text-ab:hover{
+	box-shadow: 0px 7px 15px 0px rgba(0, 0, 0, 0.14);
+    transform: scale(1.05);
 }
