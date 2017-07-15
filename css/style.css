@@ -264,17 +264,14 @@ body{
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 350px;
+	height: 450px;
 }
 .carousel-inner{
 	height: 275px;
     width: 70%;
     background-color: white;
     left: 15%;
-    top: 50px;
-}
-.imag-responciv{
-	padding-left: 395px;
+    top: 85px;
 }
 .carousel-caption{
 	top: 120px;
@@ -283,5 +280,10 @@ body{
 	left: 108px;
 }
 .carousel-control.right{
-	left: 1038px;
+	left: 875px;
+}
+.ia{
+	top: -80px;
+	left: 50%;
+    right: 50%;
 }
