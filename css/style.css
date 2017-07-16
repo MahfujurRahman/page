@@ -283,7 +283,100 @@ body{
 	left: 875px;
 }
 .ia{
-	top: -80px;
-	left: 50%;
-    right: 50%;
+	padding-left: 40%;
+}
+.item{
+	padding-left: 40%;
+}
+.list{
+	box-shadow: 0px 7px 15px 0px rgba(0, 0, 0, 0.14);
+    transform: scale(1.05);
+    height: 365px;
+}
+.pricing{
+	height: 495px;
+}
+.pricing h2{
+	text-align: center;
+	padding-top: 15px;
+}
+.pricing p{
+	text-align: center;
+}
+.heading-list{
+	position: relative;
+    width: 360px;
+    height: 100px;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: rgba(0, 0, 0, 0.14);
+    border-bottom-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+    text-align: center;
+}
+.heading-list h4{
+	font-size: 30px;
+}
+.fa-usd{
+	position: absolute;
+    top: 35px;
+    left: 195px;
+    font-size: 18px;
+}
+.heading-list:hover{
+	background-color: #00cf97;
+	color: white;
+}
+.plan ul{
+	list-style: none;
+	padding: 15px 0px 20px 0px;
+}
+.plan li{
+    padding: 8px;
+    text-align: center;
+}
+.plan li a{
+	text-decoration: none;
+	color: black;
+}
+.plan li:hover{
+	border-style: solid;
+	border-width: 1px 0px 1px 0px;
+	border-color: #ccc;
+}
+.p-n{
+	width: 170px;
+    height: 35px;
+    margin-left: 95px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.p-n:hover{
+	background-color: #00cf97;
+	color: white;
+}
+.c-icon{
+	float: left;
+    font-size: 25px;
+    padding-right: 10px;
+}
+.location{
+	height: 50px;
+}
+input{
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+.name{
+	padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.email{
+	padding: 10px;
+    border-radius: 5px;
+}
+.message-box{
+	margin-top: 25px;
 }
